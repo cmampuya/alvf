@@ -14,7 +14,7 @@ public class HibernateUtil {
 			sessionfactory = cfg.configure().buildSessionFactory();
 			
 		}catch (Throwable ex){
-			System.err.println("Initialisation de la sessionFactory a écoué" + ex);
+			System.err.println("Initialisation de la sessionFactory a echoue" + ex);
 			throw new ExceptionInInitializerError(ex);
 		}
 	}

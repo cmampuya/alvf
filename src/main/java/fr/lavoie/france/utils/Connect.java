@@ -12,8 +12,6 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import com.sun.org.apache.xml.internal.security.Init;
-
 import fr.lavoie.france.model.Disciple;
 
 public class Connect {
